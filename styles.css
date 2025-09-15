@@ -1,3 +1,10 @@
-input[text]::placeholder {
-    border-radius: 50%;
+.links {
+    display: flex;
+    justify-content: right;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
 }
