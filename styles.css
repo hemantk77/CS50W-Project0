@@ -1,7 +1,7 @@
 .links {
     display: flex;
     justify-content: right;
-    gap: 10px;
+    gap: 5px;
 }
 
 .links a {
@@ -9,6 +9,13 @@
     color: darkgray;
     font-family: Arial, sans-serif;
     font-size: 1rem;
+}
+
+.links svg {
+    width: 20px;
+    height: 20px;
+    fill: darkgray;
+    vertical-align: middle;
 }
 
 .links a:hover {
