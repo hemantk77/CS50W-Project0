@@ -1,3 +1,7 @@
+#image {
+    margin-right: 10px;
+}
+
 .links {
     display: flex;
     justify-content: right;
@@ -26,7 +30,7 @@
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .logo img {
@@ -41,12 +45,35 @@
 }
 
 .search-form input[type="text"] {
-    width: 50%;
+    width: 40%;
+    height: auto;
     padding: 10px;
     font-size: 1.2rem;
     border: 1px solid #ccc;
     border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     outline: none;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #3c4043;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.buttons input[type="submit"]:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
 }
 
