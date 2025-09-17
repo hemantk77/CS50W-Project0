@@ -95,3 +95,16 @@
     border: 1px solid #ccc;
 }
 
+#advanced-title {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #d93025;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
