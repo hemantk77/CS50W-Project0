@@ -2,6 +2,12 @@
     margin-right: 10px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .links {
     display: flex;
     justify-content: right;
@@ -25,6 +31,18 @@
 .links a:hover {
     text-decoration: underline;
     color: rgb(90, 90, 90);
+}
+
+.small-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.small-logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .logo {
